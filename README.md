@@ -1,111 +1,143 @@
-# .github
-Pinnacle Quantum Group
-# Pinnacle Quantum Group (PQG)
+.github
 
-Welcome to the official repository for **Pinnacle Quantum Group** (PQG), a leader in cutting-edge technology solutions, specializing in **Post-Quantum Cryptography (PQC)**, scalable software architectures, and secure messaging platforms.
+Pinnacle Quantum Group (PQG)
 
----
+Welcome to the official repository for Pinnacle Quantum Group (PQG), a pioneering force in Post-Quantum Cryptography (PQC), secure software architecture, and advanced scalable platforms. We build solutions that address the cryptographic challenges of today while preparing for a secure tomorrow.
 
-## 🌟 **About Us**
+🌟 About Us
 
-At PQG, we aim to redefine the standards of secure communication and scalable computing for the post-quantum era. Our mission is to deliver **high-performance, reliable, and future-proof technologies** that empower organizations to innovate and thrive in a rapidly evolving digital landscape.
+At PQG, we are committed to shaping the next generation of secure communication and scalable computing technologies. Our mission is to design and deliver high-performance, secure, and post-quantum-ready solutions that empower organizations to succeed in an ever-evolving digital environment.
 
----
+Our innovations include advanced cryptographic primitives, secure pub/sub platforms, scalable blockchain systems, and more, all developed with the foresight to address future threats from quantum computing.
 
-## 🚀 **Core Projects**
+🚀 Core Projects
 
-### **Aterna**
-Aterna is our flagship **pub/sub messaging platform** with two editions:
-- **Aterna Community Edition**: Open-source, offering core pub/sub functionality.
-- **Aterna Enterprise Edition**: Advanced features, including Lucene indexing, Bloom filters, and Merkle tree-backed immutability.
+Aterna
 
-### **Post-Quantum Cryptography Solutions**
-We develop tools and frameworks for implementing **lattice-based cryptography**, ensuring secure communications that withstand quantum threats. This includes:
-- PQC-enhanced TLS for secure data transmission.
-- Certificate issuance with fallback to traditional standards.
+Aterna is our flagship pub/sub messaging platform designed for high scalability and post-quantum security.
 
-### **Scalable Blockchain Infrastructure**
-- Support for **sharded blockchain architectures** at massive scale.
-- Integration of **PQC primitives** into blockchain consensus mechanisms.
+Aterna Community Edition: This open-source edition offers foundational pub/sub capabilities for secure, distributed messaging.
 
-### **Intelligent Search and Analysis**
-- **Lucene-based indexing** for rapid data search and analytics.
-- **Neo4j integration** for complex graph-based queries.
+Aterna Enterprise Edition: Adds advanced features such as Lucene indexing, Bloom filters, and Merkle tree-backed immutability for compliance and security.
 
----
+Post-Quantum Cryptography Solutions
 
-## 🌐 **Domains and Products**
+We provide tools for robust lattice-based cryptography to secure data transmission, including:
 
-### Current Domains:
-- [aterna.wiki](https://aterna.wiki)
-- [aterna.info](https://aterna.info)
-- [aterna.dev](https://aterna.dev)
-- [aterna.io](https://aterna.io)
-- [aterna.pro](https://eterna.pro)
+PQC-enhanced TLS: Secure communication protocols resistant to quantum attacks.
 
-### Upcoming Products:
-- Aterna Community and Enterprise Editions.
-- PQC Certificate Authority (CA) service.
-- Blockchain-based data integrity tools.
-- PQC Bind9
-- PQC Mdns
-- PQC NTP
-  
----
+PQC Certificates: Issuing certificates with both post-quantum and classical options.
 
-## 🛠 **Key Technologies**
+Scalable Blockchain Infrastructure
 
-- **Programming Languages**: Golang, Python
-- **Architectures**: Microservices, Pub/Sub, Distributed Systems
-- **Compliance**: CMMC 2.0, FDA CFR
-- **Cryptography**: Lattice-based (e.g., CRYSTALS-Kyber, SPHINCS+), Merkle Trees
-- **Observability**: OpenTelemetry, Jaeger, Prometheus
-- **Searchability**: Apache Lucene, Bloom filters
-- **Storage**: Neo4j, S3, Redshift
+Sharded Blockchain Solutions: Enabling massive scalability for secure transactions using PQC primitives.
 
----
+Quantum-Resistant Consensus: Integration of PQC into blockchain consensus mechanisms to future-proof distributed ledgers.
 
-## 🔒 **Security and Compliance**
+Cryptographic Primitives
 
-### Our Commitment:
-- End-to-end encryption with **Post-Quantum Cryptography (PQC)**.
-- Full compliance with **FDA CFR**, **CMMC 2.0**, and other industry standards.
-- Immutable data with **Merkle tree structures** and advanced logging.
+Our advanced cryptographic innovations include:
 
-### Use Cases:
-- **Healthcare**: HIPAA-compliant secure messaging.
-- **Finance**: Scalable blockchain and tamper-proof audit logs.
-- **Government**: Secure communication for air-gapped systems.
+HyperChaCha: A stream cipher extending ChaCha20 enhaning, entropy, performace and security. Optimized for AVX-512 and AVX2.
 
----
+HyperBlake: A hash function providing a 512-bit output with dynamic initialization, ensuring quantum resistance and zero-trust compliance.
 
-## 🤝 **Contributing**
+Keccak Cube: An extension of the Keccak structure into higher dimensions for improved parallelism and security in hash computations.
 
-We welcome contributions from the community to help advance our open-source projects. If you’d like to contribute:
-1. Fork the repository.
-2. Create a feature branch.
-3. Submit a pull request with a detailed description.
+MerkleCube: A multidimensional Merkle tree structure enabling advanced scalability and parallelism for distributed systems and blockchain solutions.
 
----
+Intelligent Search and Analysis
 
-## 📫 **Contact Us**
+Lucene-based Indexing: Fast data search capabilities for enterprise-grade deployments.
 
-For inquiries, reach out to us at:
-- **Email**: [info@pqg.info](mailto:info@pqg.info)
-- **Website**: [pqg.info](https://pqg.info)
+Neo4j Integration: Advanced graph-based data analysis and storage.
 
----
+🌐 Domains and Products
 
-## 📜 **License**
+Current Domains:
 
-This repository and its contents are licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+aterna.wiki
 
----
+aterna.info
 
-## 📄 **Disclaimer**
+aterna.dev
 
-Pinnacle Quantum Group (PQG) is committed to advancing secure and scalable technologies. However, users are responsible for ensuring compliance with local laws and regulations in their jurisdictions.
+aterna.io
 
----
+aterna.pro
 
-Thank you for supporting Pinnacle Quantum Group as we build the future of secure computing!
+Upcoming Products:
+
+Aterna Community and Enterprise Editions
+
+PQC Certificate Authority (CA) service for secure web and communication channels.
+
+Blockchain-based Data Integrity Tools
+
+PQC-enhanced DNS (Bind9 and mDNS)
+
+PQC-enhanced NTP (Network Time Protocol)
+
+🛠 Key Technologies
+
+Programming Languages: Golang, Python
+
+Architectures: Microservices, Pub/Sub, Distributed Systems
+
+Compliance: CMMC 2.0, FDA CFR
+
+Cryptography: Lattice-based systems (e.g., CRYSTALS-Kyber, SPHINCS+), Merkle Trees, HyperChaCha, HyperBlake, Keccak Cube, MerkleCube
+
+Observability: OpenTelemetry, Jaeger, Prometheus
+
+Search and Analytics: Apache Lucene, Bloom Filters
+
+Data Storage: Neo4j, S3, Redshift
+
+🔒 Security and Compliance
+
+Our Commitment:
+
+End-to-End Encryption with Post-Quantum Cryptography (PQC).
+
+Compliance with FDA CFR, CMMC 2.0, and other major regulatory requirements.
+
+Immutability and Tamper Resistance with Merkle Tree Structures and advanced logging mechanisms.
+
+Use Cases:
+
+Healthcare: Ensuring HIPAA-compliant secure messaging.
+
+Finance: Providing scalable, secure blockchain solutions and tamper-proof audit logging.
+
+Government: Secure communications for sensitive systems, including air-gapped infrastructures.
+
+🤝 Contributing
+
+We welcome contributions from the global developer community to help advance our open-source projects and platforms. To get started:
+
+Fork the repository.
+
+Create a feature branch with a descriptive name.
+
+Submit a pull request along with a detailed explanation of the changes or enhancements you've made.
+
+Whether it's suggesting improvements, fixing bugs, or contributing to documentation, we value your support and collaboration.
+
+📫 Contact Us
+
+For general inquiries or questions about partnerships, please reach out:
+
+Email: info@pqg.info
+
+Website: pqg.info
+
+📜 License
+
+This repository is licensed under the MIT License. Please see the LICENSE file for detailed terms and conditions.
+
+📄 Disclaimer
+
+Pinnacle Quantum Group (PQG) is dedicated to advancing secure and scalable technology solutions for the post-quantum world. Please ensure compliance with local laws and regulations when using any of our software or services.
+
+Thank you for supporting Pinnacle Quantum Group as we build and secure the future of computing together!
